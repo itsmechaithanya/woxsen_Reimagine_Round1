@@ -655,7 +655,7 @@ a #ball h3{
     font-family: matter;
 }
 #page10 h3{
-    background-color: #CEE7B2;
+    background-color: #CFDAC4;
     padding: 1vw 2vw;
     margin-top: 1.2vw;
     font-size: 1.3vw;
@@ -705,7 +705,7 @@ a #ball h3{
     font-family: matter;
 }
 #page11 h3{
-    background-color: #CEE7B2;
+    background-color: #CFDAC4;
     padding: 1vw 2vw;
     margin-top: 1.2vw;
     font-size: 1.3vw;
@@ -714,8 +714,47 @@ a #ball h3{
 #page12{
     height: 60vh;
     width: 100vw;
+    display: flex;
 }
-
+#page12 #left{
+    height: inherit;
+    width: 50%;
+    padding-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* background-color: crimson; */
+}
+#page12 #right{
+    height: inherit;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0vw 5vw;
+    /* background-color: rgb(197, 194, 255); */
+}
+#page12 h2{
+    font-size: 3vw;
+} 
+#page12 p{
+    font-size: 1.8vw;
+    line-height: 2vw;
+    margin-top: .5vw;
+    font-family: matter;
+}
+#page12 h3{
+    background-color: #CFDAC4;
+    padding: 1vw 2vw;
+    margin-top: 1.2vw;
+    font-size: 1.3vw;
+    border-radius: 5vw;
+}
+#page12 img{
+    height: 90vh;
+}
 #pagee{
     height: 59vh;
     width: 100vw;
