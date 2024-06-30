@@ -1504,7 +1504,7 @@ a #ball h3{
     }
     #page11 #left{
         height: 30vh;
-        width: 100%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1536,7 +1536,7 @@ a #ball h3{
     #page11 h3{
         background-color: #CFDAC4;
         padding: 1vw 2vw;
-        margin-top: 1.2vw;
+        margin-top: 1.2vh;
         font-size: 1.5vh;
         border-radius: 5vw;
     }
