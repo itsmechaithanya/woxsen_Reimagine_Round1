@@ -1452,12 +1452,15 @@ a #ball h3{
         width: 100vw;
         /* background-color: #b7b7b7; */
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
     }
     #page10 #left{
         height: 30vh;
         width: 100%;
         padding:0vh 5vw;
+        padding-top: 5vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1470,7 +1473,7 @@ a #ball h3{
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: rgb(30, 20, 220);
+        /* background-color: rgb(30, 20, 220); */
     }
     #page10 h2{
         font-size: 3vh;
@@ -1482,7 +1485,7 @@ a #ball h3{
         font-family: matter;
     }
     #page10 h3{
-        background-color: #CFDAC4;
+        /* background-color: #CFDAC4; */
         padding: 1vh 2vh;
         margin-top: 1.2vh;
         font-size: 1.5vh;
@@ -1498,31 +1501,34 @@ a #ball h3{
     #page11{
         height: 60vh;
         width: 100vw;
-        background-color: #257F2A;
+        /* background-color: #257F2A; */
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column-reverse;
     }
     #page11 #left{
         height: 30vh;
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: crimson;
+        /* background-color: crimson; */
     }
     #page11 #right{
-        height: 30vh;
-        width: 80%;
+        height: 20vh;
+        width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: flex-end;
+        text-align: end;
         justify-content: center;
         padding: 0vw 5vw;
-        background-color: rgb(197, 194, 255);
+        /* background-color: rgb(197, 194, 255); */
     }
     #page11 #left img{
-        height: 30vh;
+        height: 40vh;
     }
     #page11 h2{
         font-size: 3vh;
@@ -1530,12 +1536,12 @@ a #ball h3{
     #page11 p{
         font-size: 1.8vh;
         line-height: 2vh;
-        margin-top: .5vw;
+        margin-top: .5vh;
         font-family: matter;
     }
     #page11 h3{
         background-color: #CFDAC4;
-        padding: 1vw 2vw;
+        padding: 1vh 2vh;
         margin-top: 1.2vh;
         font-size: 1.5vh;
         border-radius: 5vw;
@@ -1544,13 +1550,13 @@ a #ball h3{
         height: 60vh;
         width: 100vw;
         display: flex;
+        background-color: #000000;
         flex-direction: column;
-        margin-bottom: 8vh;
     }
     #page12 #left{
         height:30vh;
         width: 100%;
-        padding-left: 5vw;
+        padding:0vw 5vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1559,7 +1565,7 @@ a #ball h3{
     }
     #page12 #right{
         height: 30vh;
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -1568,20 +1574,20 @@ a #ball h3{
         background-color: rgb(197, 194, 255);
     }
     #page12 h2{
-        font-size: 3vw;
+        font-size: 3vh;
     } 
     #page12 p{
-        font-size: 1.8vw;
-        line-height: 2vw;
-        margin-top: .5vw;
+        font-size: 1.8vh;
+        line-height: 2vh;
+        margin-top: .5vh;
         font-family: matter;
     }
     #page12 h3{
         background-color: #CFDAC4;
-        padding: 1vw 2vw;
-        margin-top: 1.2vw;
-        font-size: 1.3vw;
-        border-radius: 5vw;
+        padding: 1vh 2vh;
+        margin-top: 1.2vh;
+        font-size: 1.3vh;
+        border-radius: 5vh;
     }
     #page12 img{
         height: 100%;
