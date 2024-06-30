@@ -1440,7 +1440,7 @@ a #ball h3{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: .5vw;
+        margin-top: 4vw;
         /* padding: 1vw 1.9vw; */
         background-color: #CFDAC4;
     }
@@ -1528,7 +1528,7 @@ a #ball h3{
         /* background-color: rgb(197, 194, 255); */
     }
     #page11 #left img{
-        height: 40vh;
+        height: 50vh;
     }
     #page11 h2{
         font-size: 3vh;
@@ -1550,7 +1550,7 @@ a #ball h3{
         height: 60vh;
         width: 100vw;
         display: flex;
-        background-color: #000000;
+        /* background-color: #000000; */
         flex-direction: column;
     }
     #page12 #left{
@@ -1561,7 +1561,7 @@ a #ball h3{
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        background-color: rgb(20, 220, 33);
+        /* background-color: rgb(20, 220, 33); */
     }
     #page12 #right{
         height: 30vh;
@@ -1570,8 +1570,7 @@ a #ball h3{
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        padding: 0vw 5vw;
-        background-color: rgb(197, 194, 255);
+        /* background-color: rgb(197, 194, 255); */
     }
     #page12 h2{
         font-size: 3vh;
@@ -1590,7 +1589,10 @@ a #ball h3{
         border-radius: 5vh;
     }
     #page12 img{
-        height: 100%;
+        height: 50vh;
+        /* background-color: #257F2A; */
+        margin-left: -10vh;
+        margin-top: -5vh;
     }
 
 
